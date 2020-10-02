@@ -1,0 +1,14 @@
+<svg id="halfadd" xmlns="http://www.w3.org/2000/svg" width="42.12" height="78.842" viewBox="0 0 42.12 78.842">
+  <g id="cell" transform="translate(0)">
+    <path id="Path_21503" data-name="Path 21503" d="M153.437,0H118.2a3.5,3.5,0,0,0-3.442,3.555V75.288a3.5,3.5,0,0,0,3.442,3.555h35.237a3.5,3.5,0,0,0,3.441-3.555V3.555A3.5,3.5,0,0,0,153.437,0Z" transform="translate(-114.759)" fill="#666"/>
+    <rect id="Rectangle_3959" data-name="Rectangle 3959" width="42.12" height="63.207" transform="translate(0 6.384)" fill="#474545"/>
+    <g id="Group_7025" data-name="Group 7025" transform="translate(18.915 2.899)">
+      <path id="Path_21505" data-name="Path 21505" d="M347.175,20.554h-1.45a1.45,1.45,0,0,1,0-2.9h1.45a1.45,1.45,0,1,1,0,2.9Z" transform="translate(-329.807 -17.654)" fill="#666"/>
+      <g id="Ellipse_758" data-name="Ellipse 758" transform="translate(0 68.68)" fill="#fff" stroke="#707070" stroke-width="0.25">
+        <circle cx="2.921" cy="2.921" r="2.921" stroke="none"/>
+        <circle cx="2.921" cy="2.921" r="2.796" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_3961" data-name="Rectangle 3961" width="42.12" height="29.99" transform="translate(0 22.994)" fill="#b7b7b7"/>
+  </g>
+</svg>

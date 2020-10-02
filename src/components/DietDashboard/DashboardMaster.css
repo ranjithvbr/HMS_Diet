@@ -1,0 +1,110 @@
+.diet_dashboard .uploadsmasterheader{
+height: auto;
+width:100%;
+
+
+}
+.doctorexcel_polyclinic_div .anticon{
+ color:#333 !important;
+}
+.diet_dashboard .diet_titleuser{
+font-size: 18px;
+ color: #86b149;
+}
+.diet_dashboard .doctorplus-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+   
+    justify-content: space-between;
+}
+.plus-icon{
+ cursor: pointer;   
+}
+.diet_dashboard .uploadsmasterheader{
+    width:100%;
+    background-color: #F8F8F8;
+	padding: 5px 20px;
+	box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px 5px 0px 0px;
+	display:flex;
+	height:68px;
+    justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+}
+
+
+
+.diet_dashboard .clinic_details
+{
+	color:white !important;
+	font-size: 18px !important;
+	background-color: rgb(82, 118, 238) !important;
+	border:none;
+	padding:8px;
+   
+	
+}
+.diet_dashboard .MuiButton-outlined {
+	border: 1px solid rgba(0, 0, 0, 0.23);
+	padding:5px 15px !important;
+}
+.clinic_details:focus{
+	background-color:#303f9f !important;
+	}
+
+
+.clinic_group_details .MuiButton-root {
+	text-transform:none !important;
+	border-radius: none !important;
+
+} 
+.clinic_date_details
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+/* .doctorexcel_polyclinic_div{
+	width:17%;
+} */
+.doctorexcel_polyclinic_div .formdiv {
+  top:-6px;
+}
+.doctorexcel_polyclinic_div .ant-select-selection{
+	border:none !important;
+	box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12) !important;
+    padding:6px !important;
+
+}
+.doctorexcel_polyclinic_div .formdiv .selectbox .ant-select-selection--single{
+	padding:6px !important;
+	color: rgb(51, 51, 51) !important;
+	font-weight: bold;
+	font-size: 16px !important;
+	height:50px !important;
+	width:250px !important;
+	display:flex;
+	align-items: center;
+}
+ @media only screen and (max-width: 1040px){
+	.diet_dashboard .doctorplus-container 
+	{
+		width:100%;
+	}
+	
+}
+ @media only screen and (max-width: 1000px){
+	.page_button_container{
+      display: block !important;
+	} 
+ }
+ /* @media only screen and (max-width: 768px){
+	.titleuser{
+	 font-size:1.25rem !important;
+	 width:30%;
+	}
+ } */

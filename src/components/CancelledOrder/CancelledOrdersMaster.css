@@ -1,0 +1,117 @@
+.cancelledorder_header{
+    height: auto;
+    /* width:100%; */
+    /* font-family: 'Roboto-Regular'; */
+    /* width:100%; */
+    background-color: #F8F8F8;
+    padding: 10px;
+    box-shadow: 0px 3px 6px #00000029;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* select range spinner */
+.spinning_align {
+    height:50px !important;
+    left: -260px !important;
+    top:240px !important;
+  }
+  
+  .spinning_align span i {
+    background-color: #82AE3F;
+  }
+.cancelledorder_title{
+    font-size: 18px;
+    color: #82AE3F;
+     width:40%;
+     margin-left: 12px;
+     /* font-family: 'Roboto-Regular'; */
+     font-weight: 600;
+}
+.doctor_plus-container  {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* width: 55%; */
+    justify-content: space-between;
+}
+.plus-icon{
+ cursor: pointer; 
+margin-left: 94%; 
+}
+
+
+
+.clinic_details
+{
+	color:white !important;
+	font-size: 12px !important;
+	background-color: #3F51B5 !important;
+	border:none;
+	 /* font-family: 'Roboto-Regular' !important; */
+	padding:8px;
+   
+	
+}
+.clinic_details:focus{
+	background-color:#303f9f !important;
+	}
+.clinic_details
+{
+	color:white !important;
+	font-size: 1.5rem !important;
+	
+	border:none;
+    /* font-family: 'Roboto-Regular'; */
+	padding:8px;
+	
+}
+
+.clinic_group_details .MuiButton-root {
+	text-transform:none !important;
+	border-radius: none !important;
+	border: 0px !important;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+
+} 
+.clinic_date_details
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.currentdate{
+    font-size: 1.25rem;
+}
+.cancelorder_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    
+}
+.cancelorder_hardcopy{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+@media  screen and  (max-width: 1420px) {
+    .cancelorder_container{
+        width: 22%;
+    }
+   
+  }
+@media  screen and (min-width:1000px) and (max-width: 1200px) {
+    .cancelorder_container{
+        width: 27%;
+    }
+   
+  }
+  @media  screen and  (max-width: 1000px) {
+    .cancelorder_container{
+        width: 35%;
+    }
+   
+  }

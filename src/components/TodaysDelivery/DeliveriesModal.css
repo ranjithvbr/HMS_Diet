@@ -1,0 +1,264 @@
+.flex-card {
+  margin-top: 15px;
+  padding-left: 10px;
+  margin-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  border: none !important;
+}
+.MuiTypography-colorTextSecondary {
+  padding: 5px;
+  background-color: transparent;
+  font-size: 12px !important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: 0 4px 3px -3px grey !important;
+}
+
+.MuiCardHeader-root {
+  padding: 0px !important;
+}
+
+.food_image {
+  width: 100%;
+  height: 80px;
+}
+/* .food_type{
+  margin-bottom: 4px;
+} */
+
+.line {
+  border-left: 1px solid grey;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.line_two {
+  border-left: 1px solid grey;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.flex_card_content {
+  display: flex;
+  /* height: 25%; */
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.deliveries_layer_one {
+  display: flex;
+  /* width: 135% !important; */
+}
+.fiber_price_div {
+  background-color: #0dca59;
+  width: 130px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: 100%;
+  border-radius: 20px;
+}
+.fiber_price .MuiButton-label {
+  height: 29px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: white !important;
+
+  color: white;
+}
+
+.food_type .MuiTypography-h5 {
+  /* height: 30%; */
+  /* margin-top: 20px; */
+  /* padding: 50px; */
+  font-size: 16px;
+  color: #676464;
+}
+.fiber-food_type {
+  height: 30%;
+  margin-top: -85px;
+  padding: 50px;
+  font-size: 16px;
+  color: #676464;
+  position: relative;
+  right: 12px;
+}
+
+.flex_card_content_two {
+  display: flex;
+  /* height: 50%; */
+  margin-left: 22px;
+  margin-top: 30px;
+}
+
+.food_orderby {
+  height: 30%;
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.food_orderby_details {
+  height: 30%;
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.MuiDialog-paperScrollPaper {
+  max-height: 100% !important;
+}
+/* .MuiButtonBase-root .MuiButton-root .MuiButton-contained .orderSubmit */
+.orderSubmit {
+  background-color: #e44949 !important;
+  color: white !important;
+  font-size: 12px !important;
+}
+.click_cancel {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 15px;
+  margin-right: 30px;
+}
+.orderSubmit {
+  border-radius: 2px !important;
+}
+.deliveries_head_content {
+  color: #676464;
+  font-size: 20px;
+  /* margin-right: 5px; */
+  /* font-weight: bold; */
+  letter-spacing: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deliver_head_content-one {
+  color: #676464;
+  font-size: 20px;
+  letter-spacing: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.deliver_head_content-two {
+  color: #676464;
+  font-size: 20px;
+  letter-spacing: 0;
+  margin-left: 8.5%;
+  margin-right: 5%;
+}
+.deliver_head_content-three {
+  color: #676464;
+  font-size: 20px;
+  letter-spacing: 0;
+  margin-left: 37.5%;
+  margin-right: 5%;
+}
+.deliver_head_content-four {
+  color: #676464;
+  font-size: 20px;
+  letter-spacing: 0;
+  margin-left: 29.5%;
+  margin-right: 5%;
+}
+.deliver_head_content-five {
+  color: #676464;
+  font-size: 20px;
+  letter-spacing: 0;
+
+  margin-right: 5%;
+}
+
+.delivery_head_content {
+  color: #bcbcbc;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 690px) {
+  .deliveries_layer_one {
+    padding: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) {
+  .MuiDialog-paperWidthSm {
+    /* margin-bottom: 50% !important; */
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-height: 1024px) {
+  .MuiDialog-paperWidthSm {
+    /* margin-bottom: 18% !important; */
+  }
+}
+
+@media only screen and (min-width: 770px) and (max-height: 635px) {
+  .MuiDialog-paperWidthSm {
+    margin-top: 18% !important;
+  }
+}
+.title_food_type {
+  font-size: 51px;
+}
+.fiber_button {
+  /* background-color: black; */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+/* .service_type_container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px;
+    width:100%;
+  }
+  .clinicbutton-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:80px;
+    width:100%;
+  }
+  .clinicCancel{
+    font-size: 1.25rem !important;
+    background-color: rgb(201, 201, 201) !important;
+    font-family: 'Roboto-Regular' !important;
+    margin-right: 20px !important;
+    padding:6px 16px !important;
+  }
+  .clinicSubmit{
+    font-size: 1.25rem !important;
+    background-color: rgb(38, 128, 235) !important;
+    font-family: 'Roboto-Regular' !important;
+    color:#fff !important;
+    padding:6px 16px !important;
+  }
+  .service_type_container .MuiButton-text{
+    padding:6px 16px !important;
+    
+  }
+  .label-box{
+    width:100%;
+  }
+  .clinictotal_div{
+    width:50%;
+  }
+   /* .MuiTypography-h6 {
+      color: #86b149 !important;
+  } */
+/* .manage_service .labeltxt{
+    color:#333;
+  }
+  .manage_service .formdiv .brdrcls{
+      font-size: 1.5rem !important;
+  }
+   */

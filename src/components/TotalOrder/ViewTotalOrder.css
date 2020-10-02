@@ -1,0 +1,240 @@
+.diet_profileview_img {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  top: -60px;
+  z-index: 10000;
+  left: 38%;
+  border: 5px solid white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12) !important;
+}
+.diet_patient {
+  font-size: 30px;
+  margin-bottom: 8px !important;
+  font-weight: 600;
+}
+.diet_patient_age {
+  font-weight: 600;
+  font-size: 15px;
+  color: #adadad;
+}
+.diet_patient_order {
+  color: #666666;
+  font-size: 17px;
+  font-weight: 600;
+}
+.dietdashboard_profile_modal .MuiDialog-paperWidthSm {
+  width: 504px !important;
+  height: 438px !important;
+  overflow: visible !important;
+}
+/* .dietdashboard_profile_modal .MuiDialog-scrollPaper{
+  display: block !important;
+  
+} */
+.profile_view_diet_totalorder {
+  width: 70%;
+}
+.profile_view_diet {
+  margin-top: 75px;
+  text-align: center;
+  /* height: 356px !important; */
+}
+.profile_view_details {
+  width: 100%;
+  /* display: flex;
+  justify-content: center; */
+}
+.profile_view_content {
+  /* width: 70%; */
+  display: flex;
+  font-size: 16px;
+  padding: 3px;
+  white-space: nowrap;
+}
+.content_one,
+.content_two {
+  width: 50%;
+  display: flex;
+}
+/* .content_two_dec{
+margin-left: 3px;
+ }   */
+.june {
+  margin: -11px;
+  position: relative;
+  top: 11px;
+}
+.content_one {
+  justify-content: flex-start;
+  font-weight: 600;
+  color: #666666;
+}
+.content_two {
+  justify-content: center;
+  color: #adadad;
+}
+.close_diet {
+  cursor: pointer;
+  position: relative;
+  left: 94%;
+  top: 6px;
+  font-size: 25px !important;
+}
+/* .profile_view_pad{
+  margin-top: 25px;
+} */
+.divider_blank {
+  border-bottom: 2px dashed;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.totalorder_view_one {
+  padding: 25px;
+}
+
+/* .totalorder_dashboard_view{
+    width:100%;
+    height:50% !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+     margin: 90px auto 30px;
+     background-color: #fff;
+     border-radius: 6px;
+     -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+     text-align: center;
+   }
+   .totalorder_popup_details .MuiDialog-paperWidthSm {
+     width:400px !important;
+     height: 30%;
+   }
+   .MuiDialog-paper{
+     overflow-y: initial !important;
+   }
+   .totalorder_patient_name{
+     font-size: 2rem !important;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    margin-bottom: 0px ;
+   }
+   .totalorder_patient_age{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1rem;
+     color:grey;
+     margin-bottom: 0px ;
+   }
+   .totalorder_patientappointment_details {
+     color: rgba(0, 0, 0, 0.767);
+     font-size: 1.2rem;
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     margin-left: 5%;
+   }
+  
+
+   .totalorder_patient_date{
+     color:grey;
+     font-size: 1.2rem;
+     margin-left: 20px;
+     margin-right: 10%;
+   }
+   .totalorder_patientappointment_details-div{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin-right: 25px;
+   }
+   .view_detailsbutton{
+     color:#fff !important;
+     font-size: 1.25rem !important;
+     padding:8px 20px !important;
+     background-color: rgb(71, 196, 88) !important;
+   }
+   .right_arrowview{
+     font-size: 2rem !important;
+   }
+   .totalorder_details_container{
+     width:100%;
+    
+     font-family: 'Roboto-Regular' !important;
+   }
+   .totalorder_detailsdiv{
+     width:100%;
+     height:100%;
+   }
+   .totalorder_view_img{
+     border-radius: 50%;
+     height: 150px;
+     width:150px;
+     position: absolute;
+     top: -60px;
+     z-index: 10000;
+     left: 35%;
+     border: 5px solid white;
+     /* padding:5px; */
+/* box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12) !important;
+   }
+   .divider_root{
+     margin-top: 20px !important;
+     height:2px !important;
+   }
+   .totalorder_patient:hover{
+   transition: all 0.3s ease-in-out !important;
+     -webkit-transition: all 0.3s ease-in-out !important;
+     -moz-transition: all 0.3s ease-in-out !important;
+   }
+   .totalorder_profile_modal .MuiDialog-paperWidthSm
+   {
+    width: 504px !important;
+   
+   }
+   @media only screen and (max-width: 768px){
+     .totalorder_profile_modal .MuiDialog-paperWidthSm
+   {
+     width:60% !important;
+   }
+   }
+   @media only screen and (max-width: 959px){
+    .totalorder_profile_modal .MuiDialog-paperWidthSm
+  {
+    width:50% !important;
+  }
+  }
+   .totalorder_patientappointment_Order{
+    color: rgba(0, 0, 0, 0.767);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
+   .totalorder_width{
+       padding: 10px;
+     
+   }
+   
+   .MuiSvgIcon-root.close{
+       position: relative;
+       left: 89%;
+       top: 10px;
+       color:black !important;
+       font-size: 35px !important;
+   }
+   .close:focus .close:hover {
+     color: none ;
+   }
+   .MuiPaper-root .MuiDialog-paper .MuiDialog-paperScrollPaper .MuiDialog-paperWidthSm .MuiPaper-elevation24 .MuiPaper-rounded{
+     height: 30% !important;
+   }
+   .totalorder_patientappointment_details p{
+     margin-bottom:0 !important;
+   } */

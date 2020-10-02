@@ -1,0 +1,115 @@
+.uploadsmasterheader{
+height: auto;
+width:100%;
+font-family: Roboto-Bold;
+font-weight: 600;
+border-radius: 5px 5px 0px 0px;
+background-color: #F8F8F8;
+
+}
+.todayspreparation_title{
+    font-size: 18px;
+    color: #82AE3F;
+     width:40%;
+     margin-left: 12px;
+     font-family: 'Roboto-Regular';
+     font-weight: 600;
+}
+.doctor_plus-container  {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    background-color: #F8F8F8;
+    justify-content: space-between;
+}
+.plus-icon{
+ cursor: pointer; 
+margin-left: 94%; 
+}
+.uploadsmasterheader{
+    width:100%;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+    box-shadow: 0px 3px 6px #00000029;
+    font-weight: 600;
+    height:70px;
+}
+.Dialogmodal h6{
+    font-family: "Roboto" !important;
+
+}
+.formdiv{
+    font-family: "Roboto";
+}
+
+.clinic_details
+{
+	color:white !important;
+	font-size: 12px !important;
+	background-color: #3F51B5 !important;
+	border:none;
+	 font-family: 'Roboto-Regular' !important;
+    padding:8px;
+    size: 10% !important;
+   
+	
+}
+.clinic_details:focus{
+	background-color:#3F51B5 !important;
+	}
+.clinic_details
+{
+	color:white !important;
+	font-size: 1.5rem !important;
+	
+	border:none;
+    font-family: 'Roboto-Regular';
+	padding:8px;
+	
+}
+
+.clinic_group_details .MuiButton-root {
+	text-transform:none !important;
+	border-radius: none !important;
+
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+
+} 
+.clinic_date_details
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.currentdate{
+    
+    margin-right:20px;
+    color: #545454 !important;
+    display: flex;
+    font-size: 18px !important;
+    justify-content: space-between;
+}
+
+.prepare-arrowIcon{
+    font-size: 2.5rem !important;
+    /* top: 119px; */
+    left: 1146px;
+    width: 7px;
+    height: 12px;
+    
+}
+.imgicons {  
+
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.pdf{
+    margin-right: 10px;
+    
+    
+}

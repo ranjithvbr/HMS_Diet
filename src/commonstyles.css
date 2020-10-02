@@ -1,0 +1,108 @@
+.dashboard_header {
+  padding: 10px;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px 5px 0px 0px;
+  opacity: 1;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.dashboard_title {
+  font-size: 18px;
+  color: #86b149;
+  margin-top: 10px;
+  margin-left: 2%;
+  /* font-weight: 500; */
+}
+
+.clinic_group_details .MuiButton-root {
+  text-transform: none !important;
+  border-radius: 0px !important;
+  font-size: 12px !important;
+  padding: 5px 15px !important;
+  border: none !important;
+  box-shadow: 0px 2px 5px #00000033 !important;
+}
+.clinic_group_details {
+  margin-right: 2px;
+}
+.clinic_details:focus {
+  background-color: #0b51c5 !important;
+}
+
+.clinic_details {
+  color: white !important;
+  background-color: #468df0 !important;
+  width: 120px !important;
+  height: 42px !important;
+  font-family: "Roboto" !important;
+}
+
+.currentdate {
+  font-size: 1.25rem;
+}
+.clinic_edit {
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 2px;
+}
+.clinic_polyclinic_edit {
+  display: flex;
+}
+.icon_head {
+  display: flex;
+  padding-right: 3px;
+}
+@media screen and (max-width: 990px) {
+  .dashboard_header .dashboard_title {
+    font-size: 16px;
+  }
+  .this_week {
+    background-color: #0b51c5 !important;
+    font-size: 10px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .this_month {
+    background-color: #468df0 !important;
+    font-size: 10px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .this_year {
+    background-color: #468df0 !important;
+    font-size: 10px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mr-2 {
+    font-size: 12px;
+  }
+}
+.daterangeMaster{
+position: absolute;
+}
+
+/* notification */
+
+/* .ant-notification-notice-closable{
+  padding: 14px 5px 0px 16px;
+} */
+.ant-notification-notice-description{
+    position: relative;
+    bottom: 16px;
+    margin-right: 40px;
+}
+/* notification */
+
+/* <div className="currentdate"><FaChevronLeft/>{current_date}<FaChevronRight/></div> */
+
+.ant-select-selection--multiple{
+  border-radius: 2px;
+}

@@ -1,0 +1,194 @@
+.totalorder_title{
+    font-size: 18px;
+    color: #82AE3F;
+    margin-left: 12px;
+    font-family: 'Roboto-Regular';
+    font-weight: 600;
+    }
+    @media only screen and (max-width: 938px) {
+.totalorder_title{
+    font-size: 12px;
+}
+    }
+.totalorder_group_details .MuiButtonGroup-grouped{
+border-radius: 0px !important;
+     } 
+.totalorderheader{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F8F8;
+    padding: 10px;
+    box-shadow: 0px 3px 6px #00000029;
+    align-items: center;
+    
+    font-size: 18px;
+    font-family: 'Roboto-Medium';
+}
+
+.totalorder_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.totalorder_date{
+    display: flex;
+    align-items: center;
+    font-size:16px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+} 
+.totalorder_icon{
+    font-size: 20px !important;
+    color: #545454 !important;
+    /* width: 7px !important;
+    height: 12px !important; */
+    /* font-size: 1.2rem !important;
+    top: 119px !important;
+    left: 1068px !important;
+     */
+}
+.totalorder_details{
+    font-size: 1.15rem !important;
+}
+.totalorder_master_day{
+    color:white !important;
+    font-size: 12px !important;
+    background-color:#0B51C5 !important;
+    border:none;
+    padding:8px;
+    border-radius: 2px 0px 0px 2px !important;
+    width: 128px !important;
+    height: 42px !important;
+}
+.totalorder_master_month{
+      color:white !important;
+      font-size: 12px !important;
+      background-color:#468DF0 !important;
+      border:none;
+      border-radius: 2px 0px 0px 2px !important;
+      padding:8px;
+      width: 128px !important;
+      height: 42px !important;
+}
+
+.date_totalorder{
+    
+   font-family: "Roboto-Regular";
+    font-weight: 600;
+    top: 115px;
+    left: 1084px;
+    width: 92px;
+    height: 19px;
+    text-align: center;
+    letter-spacing: 0.16px;
+    color: #545454;
+}
+.search .ant-input{
+    /* margin: 0 70px 0 10px; */
+    color:#333333;
+    font-family: "Roboto-Regular";
+    border-radius: 0px;
+    /* top: 118px;
+    left: 1236px;
+    width: 50px;
+    height: 19px;
+    text-align: left;
+    letter-spacing: 0;
+ */
+}
+.content_search .ant-input-affix-wrapper {
+    margin: 0 13px 0 0;
+}
+.totalorder_day
+{
+	color:white !important;
+    font-size: 12px !important;
+    background-color:#0B51C5 !important;
+    border:none;
+    padding:8px;
+    border-radius: 2px 0px 0px 2px !important;
+    width: 128px !important;
+    height: 42px !important;
+   
+}
+.totalorder_month{
+    color:white !important;
+    font-size: 12px !important;
+    background-color:rgb(82, 118, 238) !important;
+    border:none;
+    font-family: 'Roboto-Regular' !important;
+    padding:8px;
+    width: 110px !important;
+    height: 42px !important;
+}
+
+ 
+
+ .clinic_group_details .MuiButton-root {
+	  text-transform:none !important;
+      border-radius: none !important;
+      padding:5px 15px !important;
+}  
+
+.hardcopy_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 14%;
+}
+.spinning_align {
+    height:50px !important;
+    left: -260px !important;
+    top:240px !important;
+  }
+  
+  .spinning_align span i {
+    background-color: #82AE3F;
+  }
+  
+
+/* media query for header icons */
+
+/* @media only screen and (max-width: 1410px) {
+    .totalorder_container{
+        width: 70%;
+    }
+   
+  } */
+  @media only screen and (max-width: 1160px) {
+    .totalorder_container{
+        width: 80%;
+    }
+   
+  }
+  @media only screen and (max-width: 1010px) {
+    .totalorder_container{
+        width: 84%;
+    }
+   
+  }
+  @media only screen and (max-width: 950px) {
+    .totalorder_container{
+        width: 95%;
+    }
+    .hardcopy_icons{
+        width: 14%;
+    }
+  }
+  @media only screen and (max-width: 923px) {
+    .totalorder_container{
+        width: 92%;
+    }
+    .hardcopy_icons{
+        width: 14%;
+    }
+  }
+
+  
+
+
+
+
+

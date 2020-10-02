@@ -1,0 +1,92 @@
+.uploadsmasterheader {
+  height: auto;
+  width: 100%;
+  font-family: "Roboto-Regular";
+}
+.managetitleuser {
+  font-size: 20px;
+  color: #82ae3f;
+  width: 40%;
+  margin-left: 12px;
+  font-family: "Roboto-Regular";
+}
+.manageservicemaster .doctorplus-container {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+}
+.spinning_align {
+  height:50px !important;
+  left: -260px !important;
+  top:240px !important;
+}
+
+.spinning_align span i {
+  background-color: #82AE3F;
+}
+.manageservicemaster .plus-icon {
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 13px;
+}
+.current_container .search_bar {
+  margin-right: 13px;
+}
+
+.uploadsmasterheader {
+  width: 100%;
+  background: #f8f8f8;
+  padding: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Dialogmodal h6 {
+  font-family: "Roboto" !important;
+}
+.formdiv {
+  font-family: "Roboto";
+}
+
+.diet_details {
+  color: white !important;
+  font-size: 12px !important;
+  background-color: #3f51b5 !important;
+  border: none;
+  font-family: "Roboto-Regular" !important;
+  padding: 8px;
+}
+.diet_details:focus {
+  background-color: #303f9f !important;
+}
+.diet_details {
+  color: white !important;
+  font-size: 1.5rem !important;
+
+  border: none;
+  font-family: "Roboto-Regular";
+  padding: 8px;
+}
+
+.diet_group_details .MuiButton-root {
+  text-transform: none !important;
+  border-radius: none !important;
+}
+.diet_date_details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.manageservicemaster .currentdate {
+  font-size: 1.25rem;
+  margin-right: 13px;
+  margin-right: 27px;
+}
+.current_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

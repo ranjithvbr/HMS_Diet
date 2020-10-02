@@ -1,0 +1,42 @@
+.ant-input:hover {
+ 
+  color: none !important;
+  border-right-width: 0px !important;
+}
+.ant-input:focus{
+    border-color: none !important;
+    outline: 0;
+  -webkit-box-shadow:0px !important;
+   box-shadow: 0px !important;
+}
+button:focus {
+outline: none !important;
+outline:none !important;
+}
+
+
+@font-face {
+font-family: 'Roboto';
+src:url('./Font/ROBOTO/Roboto-Regular.ttf')format('truetype');
+
+}
+body *::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+  transition: 0.3s ;
+}
+body *::-webkit-scrollbar-thumb {
+  background: #ADAAA8;
+}
+*{
+  font-family: "Roboto" !important;
+}
+
+
+
+
+
+
+
+
+

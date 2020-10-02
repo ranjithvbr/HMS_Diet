@@ -1,0 +1,699 @@
+/* add package css */
+
+.doctormediabutton-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.doctorcancel-form {
+  background-color: rgb(38, 128, 235) !important;
+  color: #fff !important;
+  font-family: "Roboto-Regular" !important;
+  font-size: 1.25rem !important;
+  padding: 6px 16px !important;
+}
+
+.doctormedia_checkbox {
+  margin-top: 10px;
+}
+
+.doctor_active {
+  color: #333 !important;
+  font-family: "Roboto-Regular" !important;
+  font-size: 1.5rem;
+  position: relative;
+  top: 10px;
+}
+
+.media_checkbox_container {
+  margin-top: 10px !important;
+}
+
+.media_checkbox_container .MuiIconButton-root {
+  padding: 15px 10px 0px 0px !important;
+}
+
+.info_icon {
+  color: #fbd879 !important;
+  margin-left: 5px;
+}
+
+.doctormedia_button .MuiButton-text {
+  padding: 8px 8px !important;
+}
+
+.media_title_head {
+  margin-top: 10px;
+}
+
+.ant-tabs-bar {
+  border-bottom: 0px !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: #86b149 !important;
+  font-family: "Roboto-Regular" !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab:last-child {
+  font-family: "Roboto-Regular" !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab:active {
+  color: none !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab:hover {
+  color: none !important;
+}
+
+.ant-tabs-ink-bar {
+  height: 4px !important;
+  background-color: #86b149 !important;
+}
+
+.ant-tabs-nav-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px !important;
+}
+
+.test_report {
+  font-size: 2rem !important;
+}
+
+.date_view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view {
+  color: #86b149;
+}
+
+.reportcontainer {
+  padding: 10px;
+  overflow-y: scroll;
+  height: 370px;
+}
+
+.report_view_div {
+  width: 50%;
+  font-family: "Roboto-Regular";
+  padding: 20px;
+  font-size: 1.75rem;
+  background-color: rgb(248, 248, 248);
+}
+
+.report_view_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.report_image {
+  width: 100%;
+  height: auto;
+}
+
+.prescription_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.report_container {
+  background-color: rgb(248, 248, 248);
+  padding: 20px;
+  margin: 15px;
+}
+
+.pres_date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "Roboto-Regular";
+}
+
+.add_pack_button .MuiButton-text {
+  background-color: #5ecb56 !important;
+  margin-left: 25% !important;
+  color: white !important;
+  margin-top: 5% !important;
+  font-size: 13px;
+}
+
+.package_tab {
+  font-family: "Roboto-Regular";
+}
+
+.preview_head {
+  font-size: 1.25rem !important;
+  text-align: center !important;
+  margin-top: 10px !important;
+}
+
+@media (max-width: 959px) {
+  .main_div .MuiGrid-grid-md-3 {
+    background-color: #9abe63;
+  }
+}
+
+.add_package_details {
+  display: flex;
+  margin-top: 5px;
+}
+
+.add_package_duration {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.browse_package {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.price {
+  margin-left: 29%;
+}
+
+.price_input {
+  margin-left: 10px;
+}
+
+.package_top {
+  margin-top: 10px;
+}
+
+.MuiTypography-h6 {
+  font-size: 1.5rem !important;
+  text-align: left !important;
+}
+
+.main_div .ant-tabs-nav-container {
+  margin: 0px !important;
+  border-bottom: 2px dashed;
+}
+
+.text_color {
+  color: #9abe63 !important;
+}
+
+.add-package-label .formdiv .brdrcls {
+  height: 32px;
+}
+
+.browse_package .formdiv .brdrcls {
+  height: 32px;
+}
+
+.sub_grid_1 {
+  padding: 10px 40px;
+}
+
+.add-browse_plus {
+  height: 25px;
+  margin-top: 30px;
+  margin-left: 3%;
+}
+
+.sub_title_header {
+  font-size: 1.5rem !important;
+}
+
+.preview_para {
+  color: rgb(192, 192, 192);
+}
+
+.div_duration {
+  margin-right: 10px;
+}
+
+.no_package {
+  color: rgb(192, 192, 192);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diet_warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.primary {
+  background-color: #2680eb !important;
+  margin-right: 5% !important;
+  margin-bottom: 10px !important;
+  color: white !important;
+}
+
+.cancel {
+  background-color: #c9c9c9 !important;
+  color: black !important;
+  margin-bottom: 10px !important;
+}
+
+.add_button .MuiButton-text {
+  margin-left: 1% !important;
+}
+
+.add_content_div {
+  height: 50% !important;
+}
+
+.add-package-label {
+  margin-bottom: 15px;
+}
+
+.add-browse-input {
+  display: contents;
+  padding-bottom: 10px;
+}
+
+.add-input-browser-ul {
+  list-style: none;
+}
+
+.add-input-browser-li {
+  background-color: #2680eb;
+  color: white;
+  border-radius: 9px;
+  padding: 3px 10px;
+  display: inline-block;
+}
+
+.add-input-browser-li svg {
+  color: #fb5a5a;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.headnbody {
+  width: 82%;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 2px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.first_item {
+  width: 30%;
+  background-color: #9abe63;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.body_second {
+  width: 70%;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.first_item p {
+  margin-bottom: 0px !important;
+}
+
+.diet-scroll {
+  overflow-y: auto;
+  height: 400px;
+}
+
+/* .ant-tabs-nav-container{
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.25) !important;
+    margin: 0px !important;
+} */
+
+/* add diet plan css */
+
+.add_diet_dropdown .formdiv .labeltxt {
+  font-size: 16px !important;
+  color: #666666 !important;
+}
+
+.add_diet_divider .MuiDivider-root {
+  border: 1.5px dashed #666666 !important;
+}
+
+.add_diet_divider .MuiDivider-vertical {
+  margin-left: 30px;
+}
+
+.add_diet_containermain {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.add_diet_gridselect .MuiGrid-grid-md-3 {
+  background-color: white !important;
+}
+
+.item_name {
+  display: flex;
+}
+
+.diet_label_two {
+  display: flex;
+  align-items: flex-end;
+}
+
+.diet_button_one {
+  display: flex;
+  align-items: flex-end !important;
+  border-radius: 0px !important;
+}
+
+.diet_btn {
+  background-color: #5ecb56 !important;
+  color: white !important;
+}
+
+.add_diet_bg_icon {
+  margin-top: 5px;
+}
+
+.diet_button_one .MuiButton-label {
+  color: #ffffff !important;
+  border-radius: 0px !important;
+}
+
+.select_add_dietplan {
+  border: 1px solid #dcdada;
+  background: #ffffff;
+  width: 200px;
+  padding: 5px;
+}
+
+.add_diet_dropdown .MuiSvgIcon-root {
+  font-size: 2.5rem !important;
+}
+
+.select_add_dietplan_sub {
+  border: 1px solid #dcdada;
+  background: #ffffff;
+  width: 200px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.add_diet_imgitem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.diet_add-diet-planchild {
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.diet_add-diet-planchild_subchild .MuiButton-label {
+  margin-top: 30px;
+  margin-left: 37px;
+  background-color: #5ecb56;
+  height: 30px;
+  width: 46px;
+  color: #ffffff;
+}
+
+.item_name_two {
+  display: flex;
+  margin-top: 10px;
+}
+
+.diet_label_four .formdiv .brdrcls {
+  margin-top: 22px;
+  width: 110px;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.diet_label_six .formdiv .brdrcls {
+  width: 110px;
+  margin-left: 2px !important;
+  margin-right: 20px !important;
+}
+
+.diet_label_three .formdiv .labeltxt {
+  color: #9e9e9e !important;
+  font-size: 15px !important;
+}
+
+/* .sub_sub_content .formdiv .labeltxt {
+  color: #9e9e9e !important;
+  font-size: 15px !important;
+} */
+
+.add_dietplusicon {
+  width: 24px;
+  height: 24px;
+  margin-top: 34px;
+}
+
+.chick {
+  width: 160px;
+  height: 143px;
+}
+
+.blank_div {
+  border-right: dashed;
+  color: rgba(0, 0, 0, 0.25);
+  padding-right: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.diet_plan-add-button {
+  display: flex;
+  align-items: flex-end;
+}
+
+.meals_img_one {
+  margin-left: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.meals_img_two {
+  margin-left: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.meals_img_three {
+  margin-left: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.meals-button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 200px;
+  margin-bottom: 15px;
+}
+
+.meals_cancel_bt .MuiButton-label {
+  color: #333333;
+  border-radius: 2px;
+  background-color: #c9c9c9;
+  width: 80px;
+  height: 32px;
+  font-size: 13px;
+}
+
+.meals_submit_bt .MuiButton-label {
+  background: #2680eb;
+  border-radius: 2px;
+  width: 80px;
+  height: 32px;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.meal_img-card {
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+/* img style using card */
+
+.manage-add-flex-card {
+  display: flex;
+}
+
+.manage-add-food_image {
+  width: 130px;
+  height: 60px;
+}
+
+.dietitem {
+  display: flex;
+}
+
+.dietname {
+  color: #666666;
+}
+
+.dietcalories {
+  color: #666666;
+  margin-left: 10px;
+}
+
+.add-catagory-browser-li {
+  background-color: #2680eb;
+  color: white;
+  border-radius: 9px;
+}
+
+.add-catagory-browser-li .anticon svg {
+  color: #fb5a5a;
+}
+
+.imgpush {
+  margin-bottom: 20px;
+}
+
+.img_card_view {
+  margin-right: 15px;
+}
+
+.img_card_food {
+  padding: 10px;
+}
+
+.add_diet_plan_subchild {
+  width: 50%;
+  display: flex;
+}
+
+.diet_label_two .brdrcls {
+  width: 70% !important;
+}
+
+.diet_label_one .formdiv .labeltxt {
+  color: #9e9e9e !important;
+  font-size: 15px !important;
+}
+
+.diet_label_one .brdrcls {
+  width: 70% !important;
+}
+
+.diet_label_one .formdiv {
+  width: 100% !important;
+}
+
+.container_diet_grid .MuiGrid-root .MuiGrid-container {
+  padding: 50px 0 0 0 !important;
+  width: 0 !important;
+  display: flex;
+  flex-wrap: wrap !important;
+}
+
+.sub_sub_content {
+  display: flex;
+  /* margin: 0px 0px 10px 20px; */
+  align-items: center;
+}
+
+.second_grid_main {
+  display: flex;
+  padding-left: 20px;
+}
+
+.third_sub_content {
+  display: flex;
+}
+
+@media only screen and (max-width: 959px) {
+  .sub_main_catagory {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  .sub_sub_content {
+    margin-left: 0px !important;
+  }
+  .blank {
+    border-bottom: dashed;
+    border-right: 0px !important;
+    margin: 20px 0px 20px 0px !important;
+    color: rgba(0, 0, 0, 0.25);
+  }
+}
+
+.close_icon_addmodal_manage {
+  position: absolute !important;
+  height: 17px !important;
+  cursor: pointer;
+  right: 0px;
+  color: white;
+  background-color: #da1f4a;
+  border-radius: 50%;
+}
+
+.div_image_browse {
+  width: 100% !important;
+  height: 100px;
+}
+
+.presc_images {
+  position: relative;
+  position: relative;
+  border: 4px solid #dddddd87;
+  height: 100%;
+}
+
+.active_addpackagee svg {
+  font-size: 20px;
+  color: #86b149;
+}
+
+.add-package-description {
+  display: flex;
+}
+
+.add_pack_button{
+  display: flex;
+  align-items: center;
+}
+
+.add_diet_dropdown label,.sub_main_catagory label{
+ font-weight: 100;
+ color: #333;
+}
+
+.sub_main_catagory{
+  padding: 0px 20px;
+}
+
+.add_diet_bg_icon .MuiButton-label{
+  font-size: 11px;
+}
+
+.add_diet_bg_icon .MuiButton-text{
+  height: 27px;
+}
+
+.diet-scroll strong{
+ font-size: 14px;
+ font-weight: 100;
+ color: #86b149;
+}
